@@ -1,0 +1,45 @@
+$td-size: 50vh / ($board-height + 1);
+
+.part-preview {
+  position: absolute;
+  top: 12vh;
+  left: 50vh;
+
+  &__cell {
+    width: $td-size;
+    height: $td-size;
+
+    &--fixed {
+      border: 2px solid black;
+      box-shadow: inset 2px 2px 7px 1px rgba(black, 0.3);
+    }
+
+    &--1 {
+      background-color: cornflowerblue;
+    }
+
+    &--2 {
+      background-color: #b665b1;
+    }
+
+    &--3 {
+      background-color: #9fff96;
+    }
+
+    &--4 {
+      background-color: #ff865f;
+    }
+
+    &--5 {
+      background-color: #5effaa;
+    }
+
+    &--6 {
+      background-color: #d7db5c;
+    }
+
+    &--7 {
+      background-color: #8ad6cf;
+    }
+  }
+}

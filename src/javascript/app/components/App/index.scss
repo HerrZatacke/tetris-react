@@ -1,0 +1,17 @@
+.tetris-react {
+  .start-button {
+    background-color: #9fff96;
+    color: #2f3435;
+    font-size: 35px;
+    padding: 10px 50px;
+    border: 3px solid currentColor;
+    margin: 30px 12vh;
+    cursor: pointer;
+
+    &:disabled {
+      cursor: default;
+      background-color: #2f3435;
+      color: #444c4d;
+    }
+  }
+}

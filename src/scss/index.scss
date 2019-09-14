@@ -1,0 +1,16 @@
+@import '../../node_modules/reset-css/sass/reset';
+
+body {
+  background: $color-white;
+  color: $color-black;
+  font-family: Arial, "Helvetica Neue", Helvetica, sans-serif;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+pre {
+  font-family: monospace;
+  padding: 2px;
+}

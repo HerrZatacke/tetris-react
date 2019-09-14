@@ -1,0 +1,9 @@
+$color-white: #ffffff;
+$color-black: #000000;
+
+//noinspection SassScssUnresolvedVariable
+$project-name: #{"'"}$CONFIG_PROJECT_NAME#{"'"};
+//noinspection SassScssUnresolvedVariable
+$board-width: $CONFIG_BOARD_WIDTH;
+//noinspection SassScssUnresolvedVariable
+$board-height: $CONFIG_BOARD_HEIGHT;
